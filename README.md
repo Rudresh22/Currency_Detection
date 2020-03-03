@@ -24,7 +24,7 @@ This sample application demonstrates how a [Custom Vision Service](https://www.c
 
 
 ### Replacing the sample model with your own classifier 
-The model provided with the sample recognizes some fruits. To replace it with your own model exported from [Custom Vision Service](https://www.customvision.ai) do the following, and then build and launch the application:
+The model provided with the sample recognizes some currencies. To replace it with your own model exported from [Custom Vision Service](https://www.customvision.ai) do the following, and then build and launch the application:
 
   1. [Create and train](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier) a classifer with the Custom Vision Service. You must choose a "compact" domain such as **General (compact)** to be able to export your classifier. If you have an existing classifier you want to export instead, convert the domain in "settings" by clicking on the gear icon at the top right. In setting, choose a "compact" model, Save, and Train your project.
 
@@ -38,7 +38,6 @@ The model provided with the sample recognizes some fruits. To replace it with yo
   
   4. Build and run.
 
-*This sample has been tested on Pixel devices*
 
 
 ### Compatibility
